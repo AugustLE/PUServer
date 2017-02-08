@@ -10,6 +10,7 @@ if (!databaseUri) {
   console.log('DATABASE_URI not specified, falling back to localhost.');
 }
 
+
 var api = new ParseServer({
   serverURL: "https://your-app-name.herokuapp.com/parse",
   databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
